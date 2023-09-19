@@ -63,7 +63,7 @@ html {
   font-size: 62.5%;
 }
 body {
-  font-family: sans-serif;
+  font-family: Rubik, sans-serif;
   line-height: 1;
   font-weight: 400;
   box-sizing: border-box;
@@ -84,7 +84,7 @@ body {
 }
 .hero-primary-heading {
   font-size: 5.2rem;
-  font-weight: 700;
+  font-weight: 800;
   letter-spacing: -0.5px;
   margin-bottom: 3.2rem;
   color: #333;
@@ -103,7 +103,7 @@ body {
 .btn:visited {
   display: inline-block;
   font-size: 2rem;
-  font-weight: 500;
+  font-weight: 600;
   padding: 1.6rem 3.2rem;
   border-radius: 9px;
   text-decoration: none;
@@ -133,4 +133,31 @@ body {
 }
 .margin-right-medium {
   margin-right: 1.6rem;
+}
+.deliveries-containers {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  margin-top: 8rem;
+}
+.deliveries-imgs {
+  display: flex;
+}
+.deliveries-imgs img {
+  height: 4.8rem;
+  width: 4.8rem;
+  border-radius: 50px;
+  margin-right: -1.6rem;
+  border: 3px solid #fdf2e9;
+}
+.deliveries-imgs img:last-child {
+  margin-right: 0;
+}
+.deliveries-text {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+.deliveries-text span {
+  color: #cf711f;
+  font-weight: 800;
 }
