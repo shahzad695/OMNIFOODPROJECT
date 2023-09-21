@@ -105,6 +105,30 @@
   color: #cf711f;
   font-weight: 800;
 }
+/*================================
+          How to Section
+  =================================*/
+.section-featured {
+  padding: 4.2rem 0 3.8rem 0;
+}
+.featured-heading {
+  font-size: 1.4rem;
+  font-weight: 500;
+  letter-spacing: 0.75px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #999;
+  margin-bottom: 2.4rem;
+}
+.logos {
+  display: flex;
+  justify-content: space-around;
+}
+.logos img {
+  height: 3.2rem;
+  filter: brightness(0);
+  opacity: 0.5;
+}
 
 /*================================
           How to Section
