@@ -10,6 +10,14 @@
     />
     <link rel="stylesheet" href="css/generalized.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
     <title>OmniFood</title>
   </head>
   <body>
@@ -31,120 +39,253 @@
         </ul>
       </nav>
     </header>
-
-    <section class="section-hero">
-      <div class="hero">
-        <div class="hero-text">
-          <h1 class="primary-heading">
-            A healthy meal delivered to your door, every single day
-          </h1>
-          <p class="hero-description">
-            The smart 365-days-per-year food subscription that will make you eat
-            healthy again. Tailored to your personal tastes and nutritional
-            needs.
-          </p>
-          <a href="" class="btn btn-primary margin-right-medium"
-            >Start eating well</a
-          >
-          <a href="" class="btn btn-secondary">Learn more &darr;</a>
-          <div class="deliveries-containers">
-            <div class="deliveries-imgs">
-              <img src="img/customers/customer-1.jpg" alt="customer picture" />
-              <img src="img/customers/customer-2.jpg" alt="customer picture" />
-              <img src="img/customers/customer-3.jpg" alt="customer picture" />
-              <img src="img/customers/customer-4.jpg" alt="customer picture" />
-              <img src="img/customers/customer-5.jpg" alt="customer picture" />
-              <img src="img/customers/customer-6.jpg" alt="customer picture" />
-            </div>
-            <div class="deliveries-text">
-              <span>250,000+</span> meals delivered last year!
+    <main>
+      <section class="section-hero">
+        <div class="hero">
+          <div class="hero-text">
+            <h1 class="primary-heading">
+              A healthy meal delivered to your door, every single day
+            </h1>
+            <p class="hero-description">
+              The smart 365-days-per-year food subscription that will make you
+              eat healthy again. Tailored to your personal tastes and
+              nutritional needs.
+            </p>
+            <a href="" class="btn btn-primary margin-right-sm"
+              >Start eating well</a
+            >
+            <a href="" class="btn btn-secondary">Learn more &darr;</a>
+            <div class="deliveries-containers">
+              <div class="deliveries-imgs">
+                <img
+                  src="img/customers/customer-1.jpg"
+                  alt="customer picture"
+                />
+                <img
+                  src="img/customers/customer-2.jpg"
+                  alt="customer picture"
+                />
+                <img
+                  src="img/customers/customer-3.jpg"
+                  alt="customer picture"
+                />
+                <img
+                  src="img/customers/customer-4.jpg"
+                  alt="customer picture"
+                />
+                <img
+                  src="img/customers/customer-5.jpg"
+                  alt="customer picture"
+                />
+                <img
+                  src="img/customers/customer-6.jpg"
+                  alt="customer picture"
+                />
+              </div>
+              <div class="deliveries-text">
+                <span>250,000+</span> meals delivered last year!
+              </div>
             </div>
           </div>
+          <div class="hero-image-box">
+            <img
+              src="img/hero.png"
+              alt="women enjoying food, food in containers"
+              class="hero-image"
+            />
+          </div>
         </div>
-        <div class="hero-image-box">
-          <img
-            src="img/hero.png"
-            alt="women enjoying food, food in containers"
-            class="hero-image"
-          />
+      </section>
+      <section class="section-featured">
+        <article class="container">
+          <h2 class="featured-heading">As featured in</h2>
+          <div class="logos">
+            <img src="img/logos/techcrunch.png" alt="techcrunch logo" /><img
+              src="img/logos/business-insider.png"
+              alt="business-insider logo"
+            /><img
+              src="img/logos/the-new-york-times.png"
+              alt="the-new-york-times logo"
+            /><img src="img/logos/forbes.png" alt="forbes logo" /><img
+              src="img/logos/usa-today.png"
+              alt="usa-today logo"
+            />
+          </div>
+        </article>
+      </section>
+      <section class="section-how">
+        <article class="how-headings container">
+          <p class="subheading">how it works</p>
+          <h2 class="secondary-heading">
+            Your daily dose of health in 3 simple steps
+          </h2>
+        </article>
+        <article class="steps container grid grid-2-cols grid-align-center">
+          <div class="steps-text-box">
+            <p class="step-number">01</p>
+            <h3 class="tertiary-heading">
+              Tell us what you like (and what not)
+            </h3>
+            <p class="step-description">
+              Never again waste time thinking about what to eat! Omnifood AI
+              will create a 100% personalized weekly meal plan just for you. It
+              makes sure you get all the nutrients and vitamins you need, no
+              matter what diet you follow!
+            </p>
+          </div>
+          <div class="steps-image-box">
+            <img
+              src="img/app/app-screen-1.png"
+              alt="iphone how to use screen 1"
+              class="step-image"
+            />
+          </div>
+          <div class="steps-image-box">
+            <img
+              src="img/app/app-screen-2.png"
+              alt="iphone how to use screen 2"
+              class="step-image"
+            />
+          </div>
+          <div class="steps-text-box">
+            <p class="step-number">02</p>
+            <h3 class="tertiary-heading">Approve your weekly meal plan</h3>
+            <p class="step-description">
+              Once per week, approve the meal plan generated for you by Omnifood
+              AI. You can change ingredients, swap entire meals, or even add
+              your own recipes.
+            </p>
+          </div>
+          <div class="steps-text-box">
+            <p class="step-number">03</p>
+            <h3 class="tertiary-heading">Receive meals at convenient time</h3>
+            <p class="step-description">
+              Best chefs in town will cook your selected meal every day, and we
+              will deliver it to your door whenever works best for you. You can
+              change delivery schedule and address daily!
+            </p>
+          </div>
+          <div class="steps-image-box">
+            <img
+              src="img/app/app-screen-3.png"
+              alt="iphone how to use screen 1"
+              class="step-image"
+            />
+          </div>
+        </article>
+      </section>
+      <section class="section-meals">
+        <article class="meals-heading container text-align-center">
+          <p class="subheading">Meals</p>
+          <h2 class="secondary-heading">
+            Omnifood AI chooses from 5,000+ recipes
+          </h2>
+        </article>
+        <article
+          class="meals-carts container grid grid-3-cols margin-bottom-md"
+        >
+          <div class="meals-cart">
+            <img
+              src="img/meals/meal-1.jpg"
+              alt="meal one Japanese Gyozas "
+              class="meals-image"
+            />
+            <div class="meals-description">
+              <div class="meals-category">
+                <span class="tag tag--veg">vegetarian</span>
+              </div>
+              <h3 class="meals-name tertiary-heading">Japanese Gyozas</h3>
+              <ul class="meal-features">
+                <li class="meal-feature">
+                  <ion-icon class="icon" name="flame-outline"></ion-icon>
+                  <span><strong>650 </strong>calories</span>
+                </li>
+                <li class="meal-feature">
+                  <ion-icon class="icon" name="restaurant-outline"></ion-icon>
+                  <span>NutriScore &reg; <strong>74</strong></span>
+                </li>
+                <li class="meal-feature">
+                  <ion-icon class="icon" name="star-outline"></ion-icon>
+                  <span><strong>4.9 </strong>rating(537)</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="meals-cart">
+            <img
+              src="img/meals/meal-2.jpg"
+              alt="meal  two Avocado Salad "
+              class="meals-image"
+            />
+            <div class="meals-description">
+              <div class="meals-category">
+                <span class="tag tag--vegan">Vegan</span>
+                <span class="tag tag--paleo">Paleo</span>
+              </div>
+
+              <h3 class="meals-name tertiary-heading">Avocado Salad</h3>
+              <ul class="meal-features">
+                <li class="meal-feature">
+                  <ion-icon class="icon" name="flame-outline"></ion-icon>
+                  <span><strong>650 </strong>calories</span>
+                </li>
+                <li class="meal-feature">
+                  <ion-icon class="icon" name="restaurant-outline"></ion-icon>
+                  <span>NutriScore &reg; <strong>74</strong></span>
+                </li>
+                <li class="meal-feature">
+                  <ion-icon class="icon" name="star-outline"></ion-icon>
+                  <span><strong>4.9 </strong>rating(537)</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="list">
+            <h3 class="tertiary-heading">Works with any diet</h3>
+            <ul class="diets">
+              <li class="diets-item">
+                <ion-icon class="check-icon" name="checkmark-outline"></ion-icon
+                ><span>Vegetarian</span>
+              </li>
+              <li class="diets-item">
+                <ion-icon class="check-icon" name="checkmark-outline"></ion-icon
+                ><span>Vegan</span>
+              </li>
+              <li class="diets-item">
+                <ion-icon class="check-icon" name="checkmark-outline"></ion-icon
+                ><span>Pescatarian</span>
+              </li>
+              <li class="diets-item">
+                <ion-icon class="check-icon" name="checkmark-outline"></ion-icon
+                ><span>Gluten-free </span>
+              </li>
+              <li class="diets-item">
+                <ion-icon class="check-icon" name="checkmark-outline"></ion-icon
+                ><span>Lactose-free </span>
+              </li>
+              <li class="diets-item">
+                <ion-icon class="check-icon" name="checkmark-outline"></ion-icon
+                ><span>Keto </span>
+              </li>
+              <li class="diets-item">
+                <ion-icon class="check-icon" name="checkmark-outline"></ion-icon
+                ><span>Paleo </span>
+              </li>
+              <li class="diets-item">
+                <ion-icon class="check-icon" name="checkmark-outline"></ion-icon
+                ><span>Low FODMAP </span>
+              </li>
+              <li class="diets-item">
+                <ion-icon class="check-icon" name="checkmark-outline"></ion-icon
+                ><span>Kid-friendly </span>
+              </li>
+            </ul>
+          </div>
+        </article>
+        <div class="container meal-options">
+          <a href="#" class="link">See all recipes &rarr;</a>
         </div>
-      </div>
-    </section>
-    <section class="section-featured">
-      <article class="container">
-        <h2 class="featured-heading">As featured in</h2>
-        <div class="logos">
-          <img src="img/logos/techcrunch.png" alt="techcrunch logo" /><img
-            src="img/logos/business-insider.png"
-            alt="business-insider logo"
-          /><img
-            src="img/logos/the-new-york-times.png"
-            alt="the-new-york-times logo"
-          /><img src="img/logos/forbes.png" alt="forbes logo" /><img
-            src="img/logos/usa-today.png"
-            alt="usa-today logo"
-          />
-        </div>
-      </article>
-    </section>
-    <section class="section-how">
-      <article class="how-headings container">
-        <p class="subheading">how it works</p>
-        <h2 class="secondary-heading">
-          Your daily dose of health in 3 simple steps
-        </h2>
-      </article>
-      <article class="steps container grid grid-2-cols grid-align-center">
-        <div class="steps-text-box">
-          <p class="step-number">01</p>
-          <h3 class="tertiary-heading">Tell us what you like (and what not)</h3>
-          <p class="step-description">
-            Never again waste time thinking about what to eat! Omnifood AI will
-            create a 100% personalized weekly meal plan just for you. It makes
-            sure you get all the nutrients and vitamins you need, no matter what
-            diet you follow!
-          </p>
-        </div>
-        <div class="steps-image-box">
-          <img
-            src="img/app/app-screen-1.png"
-            alt="iphone how to use screen 1"
-            class="step-image"
-          />
-        </div>
-        <div class="steps-image-box">
-          <img
-            src="img/app/app-screen-2.png"
-            alt="iphone how to use screen 2"
-            class="step-image"
-          />
-        </div>
-        <div class="steps-text-box">
-          <p class="step-number">02</p>
-          <h3 class="tertiary-heading">Approve your weekly meal plan</h3>
-          <p class="step-description">
-            Once per week, approve the meal plan generated for you by Omnifood
-            AI. You can change ingredients, swap entire meals, or even add your
-            own recipes.
-          </p>
-        </div>
-        <div class="steps-text-box">
-          <p class="step-number">03</p>
-          <h3 class="tertiary-heading">Receive meals at convenient time</h3>
-          <p class="step-description">
-            Best chefs in town will cook your selected meal every day, and we
-            will deliver it to your door whenever works best for you. You can
-            change delivery schedule and address daily!
-          </p>
-        </div>
-        <div class="steps-image-box">
-          <img
-            src="img/app/app-screen-3.png"
-            alt="iphone how to use screen 1"
-            class="step-image"
-          />
-        </div>
-      </article>
-    </section>
+      </section>
+    </main>
   </body>
 </html>

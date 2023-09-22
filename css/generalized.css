@@ -137,8 +137,11 @@ body {
   background-color: #fdf2e9;
   box-shadow: inset 0 0 0 3px #fff;
 }
-.margin-right-medium {
+.margin-right-sm {
   margin-right: 1.6rem;
+}
+.margin-bottom-md {
+  margin-bottom: 4.8rem !important;
 }
 .container {
   max-width: 120rem;
@@ -153,6 +156,15 @@ body {
 .grid-2-cols {
   grid-template-columns: repeat(2, 1fr);
 }
+.grid-3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
 .grid-align-center {
   align-items: center;
+}
+.text-align-center {
+  text-align: center;
+}
+strong {
+  font-weight: 500;
 }
