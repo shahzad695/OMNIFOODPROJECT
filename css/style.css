@@ -272,6 +272,7 @@
 .section-testimonials {
   display: grid;
   grid-template-columns: 55fr 45fr;
+  gap: 4.8rem;
   background-color: #fdf2e9;
 }
 .testimonials-container {
@@ -298,4 +299,21 @@
 .testimonials-customer {
   font-size: 1.6rem;
   color: #6f6f6f;
+}
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.6rem;
+  padding: 1.6rem;
+}
+.gallery-item {
+  overflow: hidden;
+}
+.gallery-image {
+  display: block;
+  width: 100%;
+  transition: all 0.4s;
+}
+.gallery-image:hover {
+  transform: scale(120%);
 }
