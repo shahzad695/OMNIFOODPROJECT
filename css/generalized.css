@@ -185,3 +185,17 @@ body {
 strong {
   font-weight: 500;
 }
+
+.list {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  gap: 1.6rem;
+}
+.list-item {
+  display: flex;
+  font-size: 1.8rem;
+  font-weight: 500;
+  align-items: center;
+  gap: 1.2rem;
+}
