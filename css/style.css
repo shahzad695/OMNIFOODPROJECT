@@ -321,6 +321,35 @@
 .section-pricing {
   padding: 9.6rem 0;
 }
+
+.pricing-plan {
+  width: 75%;
+  border-radius: 11px;
+}
+
+.pricing-plan--start {
+  border: solid 2px #fdf2e9;
+  padding: 4.6rem;
+  justify-self: end;
+}
+.pricing-plan--complete {
+  background-color: #fdf2e9;
+  padding: 4.8rem;
+  position: relative;
+  overflow: hidden;
+}
+.pricing-plan--complete::after {
+  content: "BEST VALUE";
+  background-color: #e8c03d;
+  color: #333;
+  font-size: 1.6rem;
+  font-weight: 600;
+  padding: 0.8rem 9.6rem;
+  position: absolute;
+  top: 33px;
+  right: -95px;
+  transform: rotate(45deg);
+}
 .plan-header {
   text-align: center;
   margin-bottom: 4.8rem;
@@ -333,7 +362,7 @@
 }
 .pricing-plan-price span {
   font-size: 3rem;
-  font-weight: 500;
+  font-weight: 400;
   margin-right: 0.8rem;
 }
 .pricing-plan-descr {
