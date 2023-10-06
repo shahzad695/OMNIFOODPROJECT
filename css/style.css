@@ -342,12 +342,12 @@
   content: "BEST VALUE";
   background-color: #e8c03d;
   color: #333;
-  font-size: 1.6rem;
-  font-weight: 600;
-  padding: 0.8rem 9.6rem;
+  font-size: 1.4rem;
+  font-weight: 700;
+  padding: 0.8rem 8rem;
   position: absolute;
-  top: 33px;
-  right: -95px;
+  top: 6%;
+  right: -18%;
   transform: rotate(45deg);
 }
 .plan-header {
@@ -367,6 +367,8 @@
 }
 .pricing-plan-descr {
   font-size: 1.6rem;
+  line-height: 1.6;
+  color: #6f6f6f;
 }
 .pricing-plan-name {
   font-size: 2rem;
@@ -376,7 +378,7 @@
   letter-spacing: 0.75;
   text-align: center;
   display: inline-block;
-  margin-bottom: 2.4rem;
+  margin-bottom: 3.2rem;
 }
 .plan-signup {
   text-align: center;
@@ -385,6 +387,7 @@
 .price-disc {
   font-size: 1.6rem;
   line-height: 1.6;
+  text-align: center;
 }
 .feature-icon {
   background-color: #fae5d3;
