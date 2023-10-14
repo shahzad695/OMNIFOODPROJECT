@@ -484,3 +484,14 @@ select {
   outline: none;
   box-shadow: 0 0 0 0.8rem rgba(253, 241, 232, 0.5);
 }
+
+/*================================
+          CTA Section
+  =================================*/
+.section-cta {
+  padding: 9.6rem 0;
+}
+
+.grid-footer {
+  grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
+}
