@@ -210,6 +210,7 @@ strong {
 .list-item {
   display: flex;
   font-size: 1.8rem;
+  line-height: 1.2;
   font-weight: 500;
   align-items: center;
   gap: 1.2rem;
