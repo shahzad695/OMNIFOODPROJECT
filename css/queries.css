@@ -140,7 +140,7 @@
   }
 }
 /*======================================
-     Adjust at 730px for tablets
+     Adjust at 730px for small tablets
   =======================================*/
 @media (max-width: 46em) {
   .secondary-heading {
@@ -170,7 +170,36 @@
     grid-column: span 3;
   }
 }
-
+/*======================================
+     Adjust at 544px for phones
+  =======================================*/
+@media (max-width: 34em) {
+  .grid {
+    row-gap: 4.8rem;
+  }
+  .grid-2-cols,
+  .grid-3-cols,
+  .grid-4-cols {
+    grid-template-columns: 1fr;
+  }
+  .hero {
+    padding: 0 2.4rem;
+  }
+  .hero-image {
+    width: 80%;
+  }
+  .logos img {
+    height: 1.6rem;
+  }
+  .btn,
+  .btn:link,
+  .btn:visited {
+    padding: 3.2rem 1.6rem;
+  }
+  .steps:nth-child(3) {
+    grid-row: 1;
+  }
+}
 /* - Font sizes (px)
 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 */
 /* - Spacing system (px)
